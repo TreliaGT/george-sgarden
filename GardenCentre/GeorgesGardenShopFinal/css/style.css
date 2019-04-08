@@ -1,0 +1,36 @@
+body {
+  background-image: url("https://media.freestocktextures.com/cache/23/55/23556440777e6fa0d2d8b4d7ae843dd8.jpg"); }
+
+.green {
+  background-color: #205423;
+  color: #f5f1c4;
+  padding: 2px; }
+
+nav {
+  background-color: #15771B; }
+
+h1 {
+  text-align: center; }
+
+a {
+  color: #FFFFFF; }
+
+a:hover {
+  color: #f5f1c4; }
+
+.NewCurrent {
+  padding: 0.1875rem 0.625rem;
+  background: #15771B;
+  color: #fefefe;
+  cursor: default; }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a:hover {
+  color: #f5f1c4; }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-bottom-width: 0;
+  border-top-style: solid;
+  border-color: #f5f1c4 transparent transparent; }
+
+.dropdown.menu > li.is-active > a {
+  color: #f5f1c4; }

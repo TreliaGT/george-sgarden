@@ -1,0 +1,48 @@
+
+//variables
+$cream : #f5f1c4;
+
+body {
+  background-image: url("../img/background.jpg");
+}
+
+//header & footer
+.green {
+  background-color: #205423;
+  color: $cream;
+  padding: 2px;
+}
+
+nav {
+  background-color: #15771B;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: $cream;
+}
+
+//Foundation classes
+.NewCurrent {
+  padding: 0.1875rem 0.625rem;
+  background: #15771B;
+  color: #fefefe;
+  cursor: default; }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a:hover {
+color: $cream; }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-bottom-width: 0;
+  border-top-style: solid;
+  border-color: $cream transparent transparent;
+}
+.dropdown.menu > li.is-active > a {
+  color: $cream; }
